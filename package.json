@@ -1,5 +1,5 @@
 {
-  "name": "github-actions-demo",
+  "name": "jenkins-ci",
   "version": "0.1.4",
   "private": true,
   "dependencies": {
@@ -11,9 +11,9 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://lvxiaowu.github.io/github-actions-demo/",
+  "homepage": "http://10.16.19.88/home",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PORT=5000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^5.2.0"
   }
 }
