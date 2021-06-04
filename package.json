@@ -11,7 +11,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "http://10.16.19.88/home",
+  "homepage": "./",
   "scripts": {
     "start": "cross-env PORT=5000 react-scripts start",
     "build": "react-scripts build",
